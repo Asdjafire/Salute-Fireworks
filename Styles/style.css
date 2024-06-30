@@ -122,6 +122,13 @@ h1 {
   border-color: black;
 }
 
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--gap, 1rem);
+  margin: 20px 20px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
